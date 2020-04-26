@@ -1,4 +1,4 @@
-package com.slcache.cachelib.schedule;
+package com.slcache.cachelib.abstr;
 
 import java.util.Date;
 import java.util.TimerTask;
