@@ -3,6 +3,9 @@ package com.slcache.cachelib.simple;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Can be use for simple caching application for any application
+ */
 public class SimpleCache {
 
     private long timeToLive;

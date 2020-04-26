@@ -3,6 +3,12 @@ package com.slcache.cachelib.specific;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Any instance can be cache using this class
+ * need to provide time to live
+ * init size of memory cache
+ * @param <T>
+ */
 public class InstanceCache<T> {
 
     private long timeToLive;

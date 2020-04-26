@@ -6,6 +6,9 @@ import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Cachable instance should be extend Cacheable
+ */
 public class SpecificCaching {
 
     private long timeToLive;
