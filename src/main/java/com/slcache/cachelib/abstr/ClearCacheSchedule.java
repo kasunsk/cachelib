@@ -1,6 +1,8 @@
 package com.slcache.cachelib.abstr;
 
-//This code is use to clear the exisiting cache once time to love time exceeded
+/**
+ * In this class should implement how to clear or invalidate any cache in the lib
+ */
 public class ClearCacheSchedule {
 
 }

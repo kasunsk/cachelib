@@ -8,6 +8,7 @@ import java.util.Map;
  */
 public class SimpleCache {
 
+    //this will decide live time of the current cache
     private long timeToLive;
     private Map<String, Object> memoryCache;
 
@@ -18,7 +19,7 @@ public class SimpleCache {
 
     public SimpleCache(long timeToLive, int initialSize) {
         this.timeToLive = timeToLive;
-        this.memoryCache = new HashMap<String, Object>(initialSize);
+        this.memoryCache = new HashMap<>(initialSize);
     }
 
     public void put(String key, Object value) {
